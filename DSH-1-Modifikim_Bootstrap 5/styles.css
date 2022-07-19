@@ -1,0 +1,60 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+body{
+	margin:0;
+	padding:0;
+}
+img{
+    max-width: 100%;
+}
+.gallery{
+    background-color: #0062E6;
+    padding: 80px 0;
+}
+.gallery img{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rbga(0,0,0,0.3);
+    cursor: pointer;
+}
+#gallery-modal .modal-img{
+    width: 100%;
+
+}
+
+
+.autori{
+  display:flex;
+}
+.right-side{
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: large;
+  justify-self: right;
+}
+
